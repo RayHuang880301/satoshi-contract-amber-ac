@@ -1,66 +1,20 @@
-## Foundry
+![Banner](https://i.imgur.com/QhKQ20H.png)
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
 
-Foundry consists of:
+## Tutorial Video
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+[How to Create Position](https://www.youtube.com/watch?v=d6mH4jSDhds)
 
-## Documentation
+## Introduction
 
-https://book.getfoundry.sh/
+Satoshi Protocol is a revolutionary "universal" stablecoin protocol backed by Bitcoin. It allows users to deposit assets as collateral to mint the stablecoin $SAT on both Bitcoin mainnet and multiple L2s.
 
-## Usage
-
-### Build
-
-```shell
-$ forge build
+## Build
+```
+forge build
 ```
 
-### Test
-
-```shell
-$ forge test
+## Test
 ```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
+forge test
 ```
